@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFD2D9;
+}
+
+.navbar {
+  background-color: #FFD2D9; 
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #e91e63; 
+}
+
+/* Página atual */
+.navbar a.ativo {
+  font-weight: bold;
+}
+
+/* Barrinha entre links */
+.navbar li + li::before {
+  content: "|";
+  margin-right: 15px;
+  color: #000;
+}
+
+.logo-outubro3{
+   width: 100%;
+   z-index: -1;
+   margin-top: -35px;
+}
+
+div{
+    background-color: white; /*cor do plano de fundo*/
+    width: 75%;
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h1{
+    color: #9D1B30;
+    text-align: center;
+    font-size: 30px;
+}
+
+.coracao{
+    display: block;
+    margin: 20px auto 0 auto; 
+    width: 15%;     
+    height: auto;
+}
+
+#div-menor{
+    width: 50%;
+    margin: unset;
+    margin-left: 25%;
+}
